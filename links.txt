@@ -1,0 +1,14 @@
+https://github.com/
+
+В VS code:
+команды в терминалеЖ
+проверка сязи имени с git hub
+git config --global user.name
+если имя не совпадает то пробел и в кавычкахпишем имя с Гитхаба
+
+Проверка пароля:
+git config --global user.email
+
+установить ключ В гит хаб:
+
+ssh-keygen -t ed25519 -C ""
