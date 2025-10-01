@@ -9,6 +9,25 @@ git config --global user.name
 Проверка пароля:
 git config --global user.email
 
+
 установить ключ В гит хаб:
 
 ssh-keygen -t ed25519 -C ""
+
+git init 
+git add .
+
+когда все файлы добавлены (changes Все=0):
+
+git commit -m "вольный текст"
+Готовы отправить на удаленный сервер
+
+Переименовывает ветки (внизу) ( у нас называется main) 
+необязательная команда
+git branch -M main
+
+копируем из Гитхаб команду, связь
+git remote add origin https://github.com/Algushka/
+cohort_62_lesson_01.git
+
+
